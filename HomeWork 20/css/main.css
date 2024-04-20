@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Jost", sans-serif;
+}
+
+header {
+    background: url(../imgs/Rectangle\ 1316.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+nav img {
+    width: 200px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 0px;
+}
+
+nav .navmain {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navmain h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+nav h1 {
+    font-size: 25px;
+}
+
+.hero .girl {
+    position: absolute;
+    width: 500px;
+    bottom: 0px;
+    right: 150px;
+}
+
+.hero .hero_info {
+    width: 370px;
+    margin-left: 200px;
+    padding-top: 150px;
+    padding-bottom: 260px;
+}
+
+.hero_info h1 {
+    color: white;
+    font-size: 49px;
+    margin-bottom: 20px;
+}
+
+.hero_info p {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.hero_info button {
+    position: relative;
+    padding: 25px 100px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+.hero_info button::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    transition: all .5s ease;
+}
+
+.hero_info button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    margin-left: 20px;
+}
+
+.hero button:hover::before {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.hero .btn {
+    position: absolute;
+    bottom: 17px;
+    left: 35px;
+    font-size: 15px;
+    color: white;
+}
+
+.section1 {
+    padding-left: 240px;
+    padding-right: 160px;
+    padding-top: 100px;
+}
+
+.section1 .block {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+}
+
+.section1 .cards {
+    width: 200px;
+}
+
+.section1 .robo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.section1 .first {
+    padding-right: 250px;
+    padding-bottom: 80px;
+}
+
+.first p {
+    font-size: 20px;
+}
+
+.cards h1 {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+
+.section2 {
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-left: 240px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.section2 h1 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.second_main {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.second_box {
+    width: 280px;
+}
+
+.second_box h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.second_box p {
+    font-size: 15px;
+}
+
+.section2 button {
+    padding: 10px 10px;
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 140px;
+    right: 130px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.37);
+    transition: all .5s ease;
+}
+
+.section2:hover button {
+    cursor: pointer;
+    transform: rotate(360deg);
+    background-color: rgba(0, 0, 0, 0.352);
+    border: none;
+}
+
+.section2 button:hover {
+    transform: scale(1.2);
+}
+
+.section3 .face {
+    display: flex;
+    gap: 30px;
+}
+
+.section3 .man {
+    width: 300px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.man img {
+    width: 100%;
+}
+
+.section3 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.section3 .icons {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    gap: 10px;
+    right: 340px;
+}
+
+.icons i {
+    font-size: 20px;
+}
+
+.section3 h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.section3 h3 {
+    margin: 10px 0px;
+}
+
+.section3 p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.687);
+    margin-bottom: 10px;
+}
+
+.section3 h4 {
+    color: red;
+    font-weight: 500;
+}
+
+.section3 .man1::before {
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid black;
+    border-radius: 20px;
+    width: 200px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.section3 .man1::after {
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    width: 200px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.section4 h1 {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.section4 {
+    padding: 0px 24px 100px 240px;
+}
+
+.section4 .firth {
+    display: flex;
+    gap: 30px;
+}
+
+.section4 .firth_info {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.402);
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(211, 210, 210);
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.section4 .firth_info:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #141024;
+    color: white;
+}
+
+.section4 h3 {
+    margin-bottom: 30px;
+}
+
+.section4 h2 {
+    margin-bottom: 15px;
+}
+
+.section4 p {
+    margin-bottom: 30px;
+}
+
+.section4 button {
+    padding: 15px 40px;
+    background-color: rgba(255, 0, 0, 0.742);
+    border: none;
+    transition: all .3s ease;
+}
+
+.section4 button:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+.section4 .like p {
+    margin-bottom: 53px;
+}
+
+footer .one {
+    background: url(../imgs/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px 200px 39px 300px;
+}
+
+footer .last_main {
+    display: flex;
+    gap: 40px;
+}
+
+footer {
+    color: white;
+}
+
+.one h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+footer .no {
+    padding-top: 20px;
+}
+
+footer input {
+    width: 100%;
+    padding: 15px 0px 15px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+footer button {
+    width: 100%;
+    padding: 20px 0px 20px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+footer button:hover {
+    cursor: pointer;
+    background-color: #141024;
+    transform: scale(1.05);
+}
+
+footer .two {
+    background-color: #141024;
+    padding: 30px 0px;
+}
+
+.two .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.324);
+}
+
+nav .icons {
+    display: none;
+}
+
+.hero .alone {
+    display: none;
+}
+
+
+@media(max-width: 447px) {
+    nav .navmain {
+        display: none;
+    }
+
+    nav {
+        padding: 0px 20px;
+    }
+
+    nav img {
+        width: 150px;
+    }
+
+    nav .icons {
+        display: block;
+        display: flex;
+        gap: 10px;
+    }
+
+    .icons img {
+        width: 50px;
+    }
+
+    .hero .girl {
+        display: none;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .hero .hero_info {
+        padding-bottom: 0px !important;
+        margin-left: 20px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    header {
+        background: url(../imgs/Rectangle\ 1316.png);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .hero .alone {
+        display: block;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .hero_info button {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    .hero .btn {
+        position: absolute;
+        bottom: 17px;
+        left: 110px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .hero_info button:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        margin-left: 0px;
+    }
+
+    .section1 {
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .section1 .first {
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+
+    .first p {
+        font-size: 30px;
+    }
+
+    .section1 .robo {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .section1 .block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section1 .cards {
+        text-align: center;
+    }
+
+    .cards h1 {
+        font-size: 50px;
+        color: red;
+        margin-bottom: 10px;
+    }
+
+    .cards p {
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 0px;
+    }
+
+    .section2 {
+        background-color: rgba(0, 0, 0, 0.16);
+        padding: 50px 40px 20px 40px;
+        position: relative;
+        text-align: center;
+    }
+
+    .section2 h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .second_main {
+        display: block;
+        justify-content: center;
+    }
+
+    .second_box {
+        width: 280px;
+        margin-bottom: 50px;
+        padding-left: 50px;
+    }
+
+    .second_box h3 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .second_box p {
+        font-size: 15px;
+    }
+
+    .section2 button {
+        display: none;
+    }
+
+    .section3 .face {
+        display: block;
+    }
+
+    .section3 .man {
+        width: 380px;
+        padding-bottom: 40px;
+        position: relative;
+        padding-left: 50px;
+        margin-top: 30px;
+
+    }
+
+    .man img {
+        width: 100%;
+    }
+
+    .section3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section3 .icons {
+        position: absolute;
+        bottom: 5px;
+        display: flex;
+        gap: 10px;
+        right: 340px;
+    }
+
+    .icons i {
+        font-size: 20px;
+    }
+
+    .section3 h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    .section3 h3 {
+        margin: 10px 0px;
+    }
+
+    .section3 p {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.687);
+        margin-bottom: 10px;
+    }
+
+    .section3 h4 {
+        color: red;
+        font-weight: 500;
+    }
+
+    .section3 .man2 {
+        display: none;
+    }
+
+    .section3 .man1::before {
+        content: "";
+        position: absolute;
+        border-bottom: 4px solid black;
+        border-radius: 20px;
+        width: 200px;
+        bottom: 0px;
+        left: 30px;
+    }
+
+    .section3 .man1::after {
+        content: "";
+        position: absolute;
+        border-bottom: 4px solid rgba(0, 0, 0, 0.486);
+        border-radius: 20px;
+        width: 200px;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .section3 .icons {
+        display: none;
+    }
+
+    .section4 h1 {
+        font-size: 40px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .section4 {
+        padding: 0px 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section4 .firth {
+        display: block;
+    }
+
+    .section4 .firth_info {
+        width: 300px;
+        border: 1px solid rgba(0, 0, 0, 0.402);
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(211, 210, 210);
+        border-radius: 10px;
+        margin-bottom: 30px;
+        transition: all .3s ease;
+    }
+
+    .section4 .firth_info:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: #141024;
+        color: white;
+    }
+
+    .section4 h3 {
+        margin-bottom: 30px;
+    }
+
+    .section4 h2 {
+        margin-bottom: 15px;
+    }
+
+    .section4 p {
+        margin-bottom: 30px;
+    }
+
+    .section4 button {
+        padding: 15px 40px;
+        background-color: rgba(255, 0, 0, 0.742);
+        border: none;
+        transition: all .3s ease;
+    }
+
+    .section4 button:hover {
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .section4 .like p {
+        margin-bottom: 53px;
+    }
+    footer .one {
+        background: url(../imgs/footer.png);
+        background-repeat: no-repeat;
+        padding: 0px;
+    }
+    
+    footer .last_main {
+        display: block;
+    }
+    
+    footer .container{
+        color: white;
+        padding: 20px 20px 10px 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .one h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+        line-height: 40px;
+    }
+    .one p{
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.774);
+        margin-bottom: 20px;
+    }
+    
+    footer .no {
+        padding-top: 20px;
+    }
+    
+    footer input {
+        width: 100%;
+        padding: 15px 0px 15px 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    
+    footer button {
+        width: 100%;
+        padding: 20px 0px 20px 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.603);
+        color: white;
+        font-size: 15px;
+        transition: all .3s ease;
+    }
+    
+    footer button:hover {
+        cursor: pointer;
+        background-color: #141024;
+        transform: scale(1.05);
+    }
+    
+    footer .two {
+        background-color: #141024;
+        padding: 0px;
+    }
+    
+    .two .container {
+        display: block;
+        align-items: center;
+    }
+    
+    .two p {
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.324);
+    }
+    .two h2{
+        margin-bottom: 20px;
+    }
+}
